@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BPL</title>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="user.js"></script>
+</head>
+<body >
+
+     <button onclick="back()" style="margin-left: 70%; margin-top: 2%; width: 150px;font-size: large;">Back</button>
+<center>
+
+     <img src="bpl14t.jpg" width = "350" height="300">
+     <br><br>
+     <button id="getdet" onclick="getlivedetails()">Get Live Score</button>
+     <br><br>
+     <div class="col-lg-6 col-md-16 col-sm-16 col-xs-12 login_div">
+     <h4 id="team_a_name" style="display: inline-block;"></h4> <span style="font-size: large;" id="team_a_score"></span>
+     <br>
+     <h4 id="team_b_name" style="display: inline-block;"></h3><span style="font-size: large;" id = "team_b_score"> </span>
+     </div>
+     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 login_div1">
+      <h4 id="desc" ></h4>
+     </div>
+     <br><br>
+     <button id="getdet" onclick="scorecard()">Get Score Card</button>
+
+</center>
+
+
+
+</body>
+</html>

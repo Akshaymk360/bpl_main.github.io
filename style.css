@@ -1,0 +1,63 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+  background: #1b40cb;
+}
+
+
+body
+{
+background-image: black;
+}
+
+.login_div_new
+{
+	background: #ec6827;float: none;border-radius: 15px;
+
+}
+.login_div
+{
+	background: #ec6827;float: none;border-radius: 15px;
+
+	height: 100px;;
+}
+.login_div1
+{
+	background: #ec6827;float: none;border-radius: 15px;
+
+	height: 50px;;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+#discription{
+width: 60%;
+}
+#scorecard{
+	width: 60%;
+
+}
+div.ex1 {
+	overflow: scroll;
+}
+
+}
+#getdet{
+	background-color: gainsboro;
+	width: 150px;
+	height: 30px;
+	font-weight: bold;
+}
+#teama1{
+  color: #ec6827;
+}
+
+.glass1{
+  float: left;
+  margin-left: 0px;
+  height: 0px;
+  margin-top: 0px;
+
+}
